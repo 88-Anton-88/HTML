@@ -1,0 +1,13 @@
+body{background-color: rgb(238, 238, 248);}
+.card{
+    font-size: 3em;
+}
+
+.red{
+    color: red;
+}
+
+span{
+    background-color: rgb(211, 211, 230);
+    padding: 0px 10px 0px 10px;
+}
