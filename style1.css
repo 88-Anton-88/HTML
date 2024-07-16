@@ -1,6 +1,12 @@
 .heading{
-    color: blue;
+    color: rgb(45, 45, 117);
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
 
+}
+code{
+    white-space: pre;
+}
+h2{
+    color: rgb(93, 112, 151);
 }
