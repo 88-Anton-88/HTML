@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.dotted{
+    text-decoration: underline dotted;
+}
+.red{
+    color: red;
+}
+.html{
+    background-color: rgb(205, 214, 214);
+}
+body{
+    background-color: aliceblue;
+}
+
+li{
+    display: inline-block;
+    color: green;
+    background-color: rgb(219, 215, 223);
+}
+
+.menu{
+    color: black;
+    background-color: transparent;
+    font-weight: bolder;
+}
