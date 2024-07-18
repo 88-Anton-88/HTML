@@ -1,5 +1,9 @@
 
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     font-size: 14px;
 }
@@ -7,6 +11,8 @@ body{
     font-style: italic;
     color: blue;
     font-size: 1.5rem;
+
+    border: 1px dashed red;
 }
 
 
@@ -16,10 +22,50 @@ body{
     line-height: 1.5em;
 
 }
-.marked{
+.marked {
     color: red;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
     letter-spacing: 0.5em;
+}
+.text2 .marked {
+    background-color: aquamarine;
+}
+ol {
+    list-style-type: none;
+    list-style-position: inside;
+    counter-reset: number;
+    color: black;
+    padding: 1em 5em 2em 5em;
+    border: 1px solid red;
+    margin: 2em auto;
+    width: 250px;
+    /* border-bottom-width: 2em;
+    margin-top: 5em;
+    padding-top: 2em; */
+    
+}
+
+ol li::before {
+    content: counter(numder) ') ';
+    counter-increment: number;
+    background-color: aquamarine;
+   
+}
+
+#red {
+color: red;
+}
+#orange {
+color: orange;
+}
+#yellow {
+color: yellow;
+}
+#coral {
+color: coral;
+}
+#darkorange {
+color: darkorange;
 }
