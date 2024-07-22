@@ -7,6 +7,11 @@
 body{
     font-size: 14px;
 }
+
+.container{
+    width: 90%;
+    margin: auto;
+}
 .heading {
     font-style: italic;
     color: blue;
@@ -21,6 +26,9 @@ body{
     font-size: 1em;
     line-height: 1.5em;
 
+}
+.text:hover{
+    color: blueviolet;
 }
 .marked {
     color: red;
@@ -41,10 +49,13 @@ ol {
     border: 1px solid red;
     margin: 2em auto;
     width: 250px;
-    /* border-bottom-width: 2em;
-    margin-top: 5em;
-    padding-top: 2em; */
-    
+    height: 250px;
+    background-image: url(https://shop-cdn1-2.vigbo.tech/shops/2544/products/21674060/images/3-ba84e26c348f959cfd3db3bf5db82c3d.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom;
+    background-attachment: fixed;
+
 }
 
 ol li::before {
@@ -68,4 +79,24 @@ color: coral;
 }
 #darkorange {
 color: darkorange;
+}
+.cat-image{
+    width: 300px;
+    float: right;
+
+}
+.cat-image2{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+a{
+    color: coral;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: blue;
 }
